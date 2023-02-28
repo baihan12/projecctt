@@ -8,10 +8,11 @@ header {
     padding: ;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .button {
-    background-color: black;
+    background-color: red;
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -46,10 +47,12 @@ p {
 }
 
 .info {
-    flex-wrap: wrap;
     width: 1100px;
+    flex-wrap: wrap;
     margin: 0px;
     display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
 }
 
 article {
@@ -66,6 +69,7 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
@@ -79,4 +83,9 @@ footer a {
 
 footer p {
     font-size: 24px;
+}
+
+.w{
+    width: 100%;
+    min-height: 270px;
 }
